@@ -14,6 +14,7 @@ defineEmits(["updateCount", "clear"]);
         :model-value="count"
         @update:modelValue="$emit('updateCount', $event)"
       />
+      
       <span class="inline-block w-12 text-right"
         >${{ count * product.price }}</span
       >
